@@ -14,11 +14,6 @@ const PersonMap = function (fn) {
 
 Array.prototype.PersonMap = PersonMap
 
-console.log([1,2,3,4,5,6].PersonMap(item=>{
-    if(item>3){
-        return item
-    }
-}))
 
 /**
  * 
@@ -40,4 +35,3 @@ const PersonCurry = (fn) => {
     }
 
 }
-
